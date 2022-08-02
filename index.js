@@ -35,6 +35,7 @@ function addNumber() {
     output.innerText = "Mảng nhập vào: [" + array.join(", ") + "]"
 }
 
+//================ TÍNH TỔNG CÁC SỐ DƯƠNG TRONG MẢNG=============
 function calcSum() {
     let output = document.getElementById("output1");
 
@@ -50,6 +51,7 @@ function calcSum() {
     output.innerText = "👉 Tổng các số dương: " + total;
 }
 
+//================ Đếm số dương TRONG MẢNG=============
 function calcPositive() {
     let output = document.getElementById("output2");
 
@@ -65,6 +67,7 @@ function calcPositive() {
     output.innerText = "👉 Số dương: " + sum;
 }
 
+//================ TÌM SỐ NHỎ NHẤT TRONG MẢNG=============
 function findSmallest() {
     let output = document.getElementById("output3");
 
